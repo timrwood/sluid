@@ -7,6 +7,20 @@ Sluid is a unique base 62 string generator.
 
 Sluid is similar to UUID, only instead of being globally unique, it is locally unique.
 
+### Example
+
+    // each call generates a unique id
+    sluid()  // mVpqw450
+    sluid()  // mVpqw451
+    sluid()  // mVpqw452
+    
+    // the size of the unique id can be changed
+    sluid(3) // qIe0
+    sluid(4) // jagM0
+    sluid(5) // YWK640
+    sluid(6) // fv2ebd0
+    sluid(7) // mVpr0mQ0
+
 ### Filesize
 <table>
     <tr>
